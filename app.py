@@ -94,7 +94,7 @@ def delete_employee(id):
     con.close()
 
     return redirect("/")
-
+# New application Code
 
 if __name__=="__main__":
     app.run(debug=True)
