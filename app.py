@@ -4,6 +4,7 @@ import sqlite3
 app = Flask(__name__)
 
 def create_table():
+    # database connection
     con = sqlite3.connect("employees.db")
 
     con.execute("""
